@@ -1,0 +1,23 @@
+.nav{
+    background-color: rgb(31, 29, 29);
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    
+ }
+ .nava{
+    display: inline-block;
+    background-color: rgb(155, 219, 125);
+    color:black;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-left: 150px;
+
+}
+ .nava:hover{
+     background-color: white;
+     color: rgb(121, 121, 121);
+ }
+ 
+
+ 

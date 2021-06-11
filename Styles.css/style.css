@@ -1,0 +1,99 @@
+body{
+    background-color:#269;
+background-image: linear-gradient(white 2px, transparent 2px),
+linear-gradient(90deg, white 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+.container{
+    padding: 10px;
+    background-color: aliceblue;  
+    width: 95%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.articulo1{
+    background-color: rgb(76, 139, 190);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.articulo2{
+    background-color: rgb(177, 223, 156);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.articulo3{
+    background-color: rgb(76, 139, 190);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.articulo4{
+    background-color: rgb(177, 223, 156);
+    padding: 15px;
+}
+.pop{
+    width: 90%;
+    height: 80%;
+    background-color: rgb(142, 162, 182);
+    z-index: 30;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 10%;
+    left: 5%;
+    align-items: center;
+    color: white;
+    font-size: 1em;
+    border: solid 5px rgba(255, 255, 255, 0.945);
+ 
+}
+.pop>p{
+   width: 40%;
+   border-bottom: 1.5px solid tomato; 
+   background-color: #269;
+   font-size: 1.5em;
+   padding: 20px;
+}
+.imgpop{
+     width: 40%;
+     
+}
+#close-pop{
+   z-index: 40;
+   position: fixed;
+   top: 0px;
+}
+#close-pop:checked ~ .pop{
+    display: none;
+
+}
+#close-pop:checked ~ .close{
+    display: none;
+
+}
+#close-pop{
+    display: none;
+
+}
+.close{
+    z-index: 40;
+    position:fixed;
+    top: 40px;
+    left: 190px;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-left: 80%;
+    border-bottom: 5px solid rgb(64, 66, 175);
+    cursor: pointer;
+    background-color: whitesmoke;
+    width: 30px;
+    text-align: center;
+    border-radius: 100%;
+    border: solid 3px rgb(240, 144, 18);
+}
+
